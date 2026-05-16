@@ -16,7 +16,7 @@ const app = express();
 
 
 app.use(cors({
- origin: ['http://localhost:5173', 'http://127.0.0.1:5173'], // Be explicit
+ origin: ['http://localhost:5173', 'http://127.0.0.1:5173', 'https://mern-training-v2qx.onrender.com'], // Be explicit
  credentials: true, // This is very often the fix for auth headers
  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
  allowedHeaders: ['Content-Type', 'Authorization'],
